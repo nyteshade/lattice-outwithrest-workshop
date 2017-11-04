@@ -1,43 +1,29 @@
-# GraphQL Lattice/Markdown/React boilerplate
+# In with GraphQL and out with the REST
 
-## Overview
+## Welcome
 
-Welcome to the GraphQL Lattice, React and Markdown server/client boilerplate
-application. The goal is to provide an easier way to demonstrate a good
-starting place for both the server and client side applications.
+Welcome to my GraphQL Lattice workshop on how to build a small GraphQL
+server to wrap and existing REST interface. GraphQL is all the rave when
+it comes to APIs these days, and for good reason.
 
-### Server
+### What is GraphQL Lattice?
 
-The server portion was cloned, literally, by using the `lattice-quickstart`
-application. You can clone a fresh boilerplate app for serving only your own
-GraphQL Lattice server by doing the following:
+Lattice is a new, lightweight, slightly opinionated framework that works well with both the Facebook reference implementation of GraphQL as well as the
+server implementation provided by the Apollo Team.
 
-```sh
-git clone https://github.com/nyteshade/lattice-quickstart
-```
+#### Async, Decorators and Classes, oh My!
 
-### Client
+That's right, Lattice uses all the new toys in the chest. Async/Await,
+JavaScript ES7 Decorators and Classes. While functional programming indicates
+strongly that classes are mutable and therefore bad, Lattice employs classes
+in much the same way that React does; to provide a more compatible and feature
+rich way of employing mix-ins to get everyone on the same page.
 
-The client was generated using a standard `create-react-app` boilerplate. The
-project had `npm run eject` run upon it and then recevied the following
-additions
+#### Documentation
 
- * babel-plugin-transform-class-properties
- * babel-plugin-transform-decorators-legacy
- * babel-preset-stage-1
+Some documentation is provided here, but, for the most part, much of the
+Lattice docs are Coming Soon™. The website is under going a revamp and, due
+to the recent GraphQL Summit in San Francisco, was not made entirely ready
+for consumption for this conference.
 
-## Okay, so what does it do?
-
-The `lattice-markdown-server-client` application provides a client and server
-solution that has the client querying the server for content. The server stores
-this content in markdown files allowing the author to easily update and add
-content to the server.
-
-Currently the client does not use `redux` nor does it use `react-router` or
-any similar solutions. These are left to the user to build upon as they see
-fit.
-
-## I have questions...
-
-Please file a GitHub issue or reach out to the author,
-[Brielle Harrison](mailto:nyteshade@gmail.com?subject=Questions%20or%20Feedback%20About%20Lattice-Markdown-Server)
+# [Let's get started](/step1)

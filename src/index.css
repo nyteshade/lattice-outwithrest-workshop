@@ -5,16 +5,6 @@ body {
 }
 
 code {
-  color: rgba(97, 218, 251, 1);
-  text-shadow:
-   0px -1px 1px rgba(34,34,34,0.7),
-  -1px  0px 1px rgba(34,34,34,0.7),
-   0px  1px 1px rgba(34,34,34,0.7),
-   0px  1px 1px rgba(34,34,34,0.7),
-   0px  0px 1px rgba(34,34,34,0.7),
-   1px  1px 1px rgba(34,34,34,0.7),
-  -1px -1px 1px rgba(34,34,34,0.7);
-  font-weight: bold;
   font-family: -apple-mono, "SF Mono", "Menlo", monospace;
   font-size: smaller;
 }

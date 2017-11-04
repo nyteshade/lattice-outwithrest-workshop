@@ -17,8 +17,7 @@ import styles from './MDEntry.css'
   query getEntry($content: String!) {
     getPage(content: $content) {
       content,
-      date,
-      size
+      length
     }
   }
 `)
@@ -51,12 +50,14 @@ export class MDEntry extends Component {
     let { data } = this.props
     let className = this.constructor.name
 
+    console.log(this.props)
+
     if (!data || !data.getPage) {
       return this.renderNoData();
     }
 
     return (
-      <div class={styles[className]}>
+      <div className={styles[className]}>
         <Markdown source={data.getPage.content} />
       </div>
     )
@@ -74,8 +75,8 @@ export class MDEntry extends Component {
     let className = this.constructor.name
 
     return (
-      <div class={styles[`${className}NoData`]}>
-        <Markdown source="*Fetching...*"/>
+      <div className={styles[`${className}NoData`]}>
+        <Markdown source="*Fetching...*" alt={this.props.content}/>
       </div>
     )
   }

@@ -6,9 +6,9 @@ import logo from './logo.svg';
 export class SampleHeader extends Component {
   render() {
     return (
-      <header class={styles.AppHeader}>
-        <img src={logo} class={styles.AppLogo} alt="logo" />
-        <h1 class={styles.AppTitle}>Welcome to React &amp; GraphQL</h1>
+      <header className={styles.AppHeader}>
+        <img src={logo} className={styles.AppLogo} alt="logo" />
+        <h1 className={styles.AppTitle}>Welcome to React &amp; GraphQL</h1>
       </header>
     )
   }
