@@ -8,7 +8,7 @@ export class SampleHeader extends Component {
     return (
       <header className={styles.AppHeader}>
         <img src={logo} className={styles.AppLogo} alt="logo" />
-        <h1 className={styles.AppTitle}>Welcome to React &amp; GraphQL</h1>
+        <h1 className={styles.AppTitle}>In with GraphQL<br/>and out with the REST</h1>
       </header>
     )
   }

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ModuleParser.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Deferred_exports.Deferred.html">Deferred</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DirectTypeAdd.html">DirectTypeAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLBase.html">GQLBase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.apiDocs">apiDocs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580getMergedRoot">⌾⠀getMergedRoot</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580IDLFilePath">⌾⠀IDLFilePath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580MUTATORS">⌾⠀MUTATORS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580RESOLVERS">⌾⠀RESOLVERS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580setupModel">⌾⠀setupModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580handler">⬇︎⠀handler</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580SCHEMA">⬇︎⠀SCHEMA</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580extendModel">⌾⠀extendModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580getModel">⌾⠀getModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580setModel">⌾⠀setModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%25AC%2586%25EF%25B8%258E%25E2%25A0%2580requestData">⬆︎⠀requestData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580requestData">⬇︎⠀requestData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#~deleteProperty">deleteProperty</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#~set">set</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLBase.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLEnum.html">GQLEnum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#..get">.get</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#..set">.set</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.valueFor">valueFor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580enums">⬇︎⠀enums</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580name">⬇︎⠀name</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580value">⬇︎⠀value</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580values">⬇︎⠀values</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#GenerateEnumsProxyHandler">GenerateEnumsProxyHandler</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html">GQLExpressMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#.clearCache">clearCache</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#.%25E2%258C%25BE%25E2%25A0%2580generateSchemaSDL">⌾⠀generateSchemaSDL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#astMiddleware">astMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#schemaMiddleware">schemaMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%258C%25BE%25E2%25A0%2580customMiddleware">⌾⠀customMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580middleware">⬇︎⠀middleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580middlewareWithoutGraphiQL">⬇︎⠀middlewareWithoutGraphiQL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580schema">⬇︎⠀schema</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLExpressMiddleware.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLInterface.html">GQLInterface</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLInterface.html#.%25E2%258C%25BE%25E2%25A0%2580resolveType">⌾⠀resolveType</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLScalar.html">GQLScalar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.parseLiteral">parseLiteral</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.parseValue">parseValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.serialize">serialize</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="IDLFileHandler.html">IDLFileHandler</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getFile">⌾⠀getFile</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getSchema">⌾⠀getSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getSyntaxTree">⌾⠀getSyntaxTree</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="IDLFileHandler.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ModuleParser.html">ModuleParser</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#.exports.ModuleParser#importClass">exports.ModuleParser#importClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580findGQLBaseClasses">⌾⠀findGQLBaseClasses</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580importClass">⌾⠀importClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580parse">⌾⠀parse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580parseSync">⌾⠀parseSync</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~walk">walk</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~walkSync">walkSync</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~%25E2%258E%2586%25E2%25A0%2580constructor">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ModuleParser.exports.ModuleParser.html">exports.ModuleParser</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="SchemaUtils.html">SchemaUtils</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580createMergedRoot">⌾⠀createMergedRoot</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectComments">⌾⠀injectComments</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectEnums">⌾⠀injectEnums</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectInterfaceResolvers">⌾⠀injectInterfaceResolvers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectScalars">⌾⠀injectScalars</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="SyntaxTree.html">SyntaxTree</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyDocument">⌾⠀EmptyDocument</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyMutation">⌾⠀EmptyMutation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyQuery">⌾⠀EmptyQuery</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findDefinition">⌾⠀findDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findField">⌾⠀findField</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findInASTArrayByNameValue">⌾⠀findInASTArrayByNameValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580from">⌾⠀from</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580fromAST">⌾⠀fromAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580fromSchema">⌾⠀fromSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258E%2586%25E2%25A0%2580constructor">⎆⠀constructor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580appendDefinitions">⌾⠀appendDefinitions</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580consumeDefinition">⌾⠀consumeDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580find">⌾⠀find</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580findEnumDefinition">⌾⠀findEnumDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580setAST">⌾⠀setAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580toString">⌾⠀toString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580updateAST">⌾⠀updateAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%25AC%2586%25EF%25B8%258E%25E2%25A0%2580ast">⬆︎⠀ast</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580ast">⬇︎⠀ast</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="utils.Deferred.html">Deferred</a></span></li><li class="nav-heading">Namespaces</li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="decorators.html">decorators</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#.%25E2%258C%25BE%25E2%25A0%2580extractBits">⌾⠀extractBits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580AdjacentSchema">.🏷⠀AdjacentSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580FileSchema">.🏷⠀FileSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Getters">.🏷⠀Getters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Properties">.🏷⠀Properties</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Schema">.🏷⠀Schema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Setters">.🏷⠀Setters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#~decorate">decorate</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="GQLBaseEnv.html">GQLBaseEnv</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBaseEnv.html#~notDefined">notDefined</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="global.html#types">types</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580extendsFrom">⌾⠀extendsFrom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isArray">⌾⠀isArray</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isClass">⌾⠀isClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isDate">⌾⠀isDate</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isFunction">⌾⠀isFunction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNativeClassByProps">⌾⠀isNativeClassByProps</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNativeClassByString">⌾⠀isNativeClassByString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNull">⌾⠀isNull</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNumber">⌾⠀isNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isObject">⌾⠀isObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isOfType">⌾⠀isOfType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isPrimitive">⌾⠀isPrimitive</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isRegExp">⌾⠀isRegExp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isString">⌾⠀isString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isUndefined">⌾⠀isUndefined</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isValue">⌾⠀isValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580typeOf">⌾⠀typeOf</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ModuleParser.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>// @flow
+
+import fs, { readdirSync, statSync } from 'fs'
+import path from 'path'
+import * as types from './types'
+import { GQLBase } from './GQLBase'
+import { promisify, Deferred } from './utils'
+import { GQLJSON } from './types/GQLJSON'
+import { merge } from 'lodash'
+
+// Promisify some bits
+const readdirAsync = promisify(fs.readdir)
+const statAsync = promisify(fs.stat)
+
+// Fetch some type checking bits from 'types'
+const {
+  typeOf,
+  isString,
+  isOfType,
+  isPrimitive,
+  isArray,
+  isObject,
+  extendsFrom
+} = types;
+
+/**
+ * The ModuleParser is a utility class designed to loop through and iterate
+ * on a directory and pull out of each .js file found, any classes or exports
+ * that extend from GQLBase or a child of GQLBase.
+ *
+ * @class ModuleParser
+ * @since 2.7.0
+ */
+export class ModuleParser {
+  /**
+   * An internal array of `GQLBase` extended classes found during either a
+   * `parse()` or `parseSync()` call.
+   *
+   * @memberof ModuleParser
+   * @type {Array&lt;GQLBase>}
+   */
+  classes: Array&lt;GQLBase>;
+
+  /**
+   * A string denoting the directory on disk where `ModuleParser` should be
+   * searching for its classes.
+   *
+   * @memberof ModuleParser
+   * @type {string}
+   */
+  directory: string;
+
+  /**
+   * A boolean value denoting whether or not the `ModuleParser` instance is
+   * valid; i.e. the directory it points to actually exists and is a directory
+   *
+   * @type {boolean}
+   */
+  valid: boolean;
+
+  /**
+   * An object, optionally added during construction, that specifies some
+   * configuration about the ModuleParser and how it should do its job.
+   *
+   * Initially, the
+   *
+   * @type {Object}
+   */
+  options: Object = {};
+
+  /**
+   * The constructor
+   *
+   * @constructor
+   * @method ⎆⠀constructor
+   * @memberof ModuleParser
+   * @inner
+   *
+   * @param {string} directory a string path to a directory containing the
+   * various GQLBase extended classes that should be gathered.
+   */
+  constructor(directory: string, options: Object = {addLatticeTypes: true}) {
+    this.directory = path.resolve(directory);
+    this.classes = [];
+
+    merge(this.options, options);
+
+    try {
+      this.valid = fs.statSync(directory).isDirectory();
+    }
+    catch (error) {
+      this.valid = false;
+    }
+  }
+
+  /**
+   * Given a file path, this method will attempt to import/require the
+   * file in question and return the object it exported; whatever that
+   * may be.
+   *
+   * @method ModuleParser#⌾⠀importClass
+   * @since 2.7.0
+   *
+   * @param {string} filePath a path to pass to `require()`
+   *
+   * @return {Object} the object, or undefined, that was returned when
+   * it was `require()`'ed.
+   */
+  importClass(filePath: string): Object {
+    let moduleContents: Object = {};
+    let yellow: string = '\x1b[33m'
+    let clear: string = '\x1b[0m'
+
+    try {
+      // Long story short; webpack makes this somewhat difficult but since
+      // we are targeting node, we can make this work with eval. Webpack
+      // does funny things with require which, in most cases, is the right
+      // thing to do.
+      moduleContents = eval(`(require("${filePath}"))`)
+    }
+    catch(ignore) { console.log(`${yellow}Skipping${clear} ${filePath}`) }
+
+    return moduleContents;
+  }
+
+  /**
+   * Given an object, typically the result of a `require()` or `import`
+   * command, iterate over its contents and find any `GQLBase` derived
+   * exports. Continually, and recursively, build this list of classes out
+   * so that we can add them to a `GQLExpressMiddleware`.
+   *
+   * @method ModuleParser#⌾⠀findGQLBaseClasses
+   * @since 2.7.0
+   *
+   * @param {Object} contents the object to parse for properties extending
+   * from `GQLBase`
+   * @param {Array&lt;GQLBase>} gqlDefinitions the results, allowed as a second
+   * parameter during recursion as a means to save state between calls
+   * @return {Set&lt;mixed>} a unique set of values that are currently being
+   * iterated over. Passed in as a third parameter to save state between calls
+   * during recursion.
+   */
+  findGQLBaseClasses(
+    contents: Object,
+    gqlDefinitions?: Array&lt;GQLBase> = [],
+    stack?: Set&lt;GQLBase> = new Set()
+  ): Array&lt;GQLBase> {
+    // In order to prevent infinite object recursion, we should add the
+    // object being iterated over to our Set. At each new recursive level
+    // add the item being iterated over to the set and only recurse into
+    // if the item does not already exist in the stack itself.
+    stack.add(contents)
+
+    for (let key in contents) {
+      let value = contents[key];
+
+      if (isPrimitive(value)) { continue }
+
+      if (extendsFrom(value, GQLBase)) {
+        gqlDefinitions.push(value);
+      }
+
+      if ((isObject(value) || isArray(value)) &amp;&amp; !stack.has(value)) {
+        gqlDefinitions = this.findGQLBaseClasses(value, gqlDefinitions, stack);
+      }
+    }
+
+    // We remove the current iterable from our set as we leave this current
+    // recursive iteration.
+    stack.delete(contents)
+
+    return gqlDefinitions
+  }
+
+  /**
+   * This method takes a instance of ModuleParser, initialized with a directory,
+   * and walks its contents, importing files as they are found, and sorting
+   * any exports that extend from GQLBase into an array of such classes
+   * in a resolved promise.
+   *
+   * @method ModuleParser#⌾⠀parse
+   * @async
+   * @since 2.7.0
+   *
+   * @return {Promise&lt;Array&lt;GQLBase>>} an array GQLBase classes, or an empty
+   * array if none could be identified.
+   */
+  async parse(): Promise&lt;Array&lt;GQLBase>> {
+    let modules
+    let files
+    let set = new Set();
+
+    if (!this.valid) {
+      throw new Error(`
+        ModuleParser instance is invalid for use with ${this.directory}.
+        The path is either a non-existent path or it does not represent a
+        directory.
+      `)
+    }
+
+    // @ComputedType
+    files = await this.constructor.walk(this.directory)
+    modules = files.map(file => this.importClass(file))
+
+    // @ComputedType
+    (modules
+      .map(mod => this.findGQLBaseClasses(mod))
+      .reduce((last, cur) => (last || []).concat(cur || []), [])
+      .forEach(Class => set.add(Class)))
+
+    // Convert the set back into an array
+    this.classes = Array.from(set);
+
+    // We can ignore equality since we came from a set; @ComputedType
+    this.classes.sort((l,r) => l.name &lt; r.name ? -1 : 1)
+
+    // Add in any GraphQL Lattice types requested
+    if (this.options.addLatticeTypes) {
+      this.classes.push(GQLJSON)
+    }
+
+    return this.classes;
+  }
+
+  /**
+   * This method takes a instance of ModuleParser, initialized with a directory,
+   * and walks its contents, importing files as they are found, and sorting
+   * any exports that extend from GQLBase into an array of such classes
+   *
+   * @method ModuleParser#⌾⠀parseSync
+   * @async
+   * @since 2.7.0
+   *
+   * @return {Array&lt;GQLBase>} an array GQLBase classes, or an empty
+   * array if none could be identified.
+   */
+  parseSync(): Array&lt;GQLBase> {
+    let modules: Array&lt;Object>;
+    let files: Array&lt;string>;
+    let set = new Set();
+
+    if (!this.valid) {
+      throw new Error(`
+        ModuleParser instance is invalid for use with ${this.directory}.
+        The path is either a non-existent path or it does not represent a
+        directory.
+      `)
+    }
+
+    files = this.constructor.walkSync(this.directory)
+    modules = files.map(file => {
+      return this.importClass(file)
+    })
+
+    modules
+      .map(mod => this.findGQLBaseClasses(mod))
+      .reduce((last, cur) => (last || []).concat(cur || []), [])
+      .forEach(Class => set.add(Class))
+
+    // Convert the set back into an array
+    this.classes = Array.from(set);
+
+    // We can ignore equality since we came from a set; @ComputedType
+    this.classes.sort((l,r) => l.name &lt; r.name ? -1 : 1)
+
+    // Add in any GraphQL Lattice types requested
+    if (this.options.addLatticeTypes) {
+      this.classes.push(GQLJSON)
+    }
+
+    return this.classes;
+  }
+
+  /**
+   * Returns the `constructor` name. If invoked as the context, or `this`,
+   * object of the `toString` method of `Object`'s `prototype`, the resulting
+   * value will be `[object MyClass]`, given an instance of `MyClass`
+   *
+   * @method ⌾⠀[Symbol.toStringTag]
+   * @memberof ModuleParser
+   *
+   * @return {string} the name of the class this is an instance of
+   * @ComputedType
+   */
+  get [Symbol.toStringTag]() { return this.constructor.name }
+
+  /**
+   * Applies the same logic as {@link #[Symbol.toStringTag]} but on a static
+   * scale. So, if you perform `Object.prototype.toString.call(MyClass)`
+   * the result would be `[object MyClass]`.
+   *
+   * @method ⌾⠀[Symbol.toStringTag]
+   * @memberof ModuleParser
+   * @static
+   *
+   * @return {string} the name of this class
+   * @ComputedType
+   */
+  static get [Symbol.toStringTag]() { return this.name }
+
+  /**
+   * Recursively walks a directory and returns an array of asbolute file paths
+   * to the files under the specified directory.
+   *
+   * @method ModuleParser~walk
+   * @async
+   * @since 2.7.0
+   *
+   * @param {string} dir string path to the top level directory to parse
+   * @param {Array&lt;string>} filelist an array of existing absolute file paths,
+   * or if not parameter is supplied a default empty array will be used.
+   * @return {Promise&lt;Array&lt;string>>} an array of existing absolute file paths
+   * found under the supplied `dir` directory.
+   */
+  static async walk(
+    dir: string,
+    filelist: Array&lt;string> = []
+  ): Promise&lt;Array&lt;string>> {
+    let files = await readdirAsync(dir);
+    let stats
+
+    files = files.map(file => path.resolve(path.join(dir, file)))
+
+    for (let file of files) {
+      stats = await statAsync(file)
+      if (stats.isDirectory()) {
+        filelist = await this.walk(file, filelist)
+      }
+      else {
+        filelist = filelist.concat(file);
+      }
+    }
+
+    return filelist;
+  }
+
+  /**
+   * Recursively walks a directory and returns an array of asbolute file paths
+   * to the files under the specified directory. This version does this in a
+   * synchronous fashion.
+   *
+   * @method ModuleParser~walkSync
+   * @async
+   * @since 2.7.0
+   *
+   * @param {string} dir string path to the top level directory to parse
+   * @param {Array&lt;string>} filelist an array of existing absolute file paths,
+   * or if not parameter is supplied a default empty array will be used.
+   * @return {Array&lt;string>} an array of existing absolute file paths found
+   * under the supplied `dir` directory.
+   */
+  static walkSync(
+    dir: string,
+    filelist: Array&lt;string> = []
+  ): Array&lt;string> {
+    let files = readdirSync(dir);
+    let stats
+
+    files = files.map(file => path.resolve(path.join(dir, file)))
+
+    for (let file of files) {
+      stats = statSync(file)
+      if (stats.isDirectory()) {
+        filelist = this.walkSync(file, filelist)
+      }
+      else {
+        filelist = filelist.concat(file);
+      }
+    }
+
+    return filelist;
+  }
+}
+
+export default ModuleParser;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Oct 31 2017 23:54:52 GMT-0700 (PDT) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

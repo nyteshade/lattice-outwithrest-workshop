@@ -3,6 +3,11 @@
   padding: 2em;
 }
 
+.App table td {
+  vertical-align: top;
+  padding-left: 10px;
+}
+
 .AppIntro {
   font-size: large;
 }

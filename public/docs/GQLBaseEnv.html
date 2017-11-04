@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GQLBaseEnv - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Deferred_exports.Deferred.html">Deferred</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DirectTypeAdd.html">DirectTypeAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLBase.html">GQLBase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.apiDocs">apiDocs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580getMergedRoot">⌾⠀getMergedRoot</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580IDLFilePath">⌾⠀IDLFilePath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580MUTATORS">⌾⠀MUTATORS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580RESOLVERS">⌾⠀RESOLVERS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580setupModel">⌾⠀setupModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580handler">⬇︎⠀handler</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580SCHEMA">⬇︎⠀SCHEMA</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580extendModel">⌾⠀extendModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580getModel">⌾⠀getModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580setModel">⌾⠀setModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%25AC%2586%25EF%25B8%258E%25E2%25A0%2580requestData">⬆︎⠀requestData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580requestData">⬇︎⠀requestData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#~deleteProperty">deleteProperty</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#~set">set</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLBase.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLEnum.html">GQLEnum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#..get">.get</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#..set">.set</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.valueFor">valueFor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580enums">⬇︎⠀enums</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580name">⬇︎⠀name</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580value">⬇︎⠀value</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580values">⬇︎⠀values</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#GenerateEnumsProxyHandler">GenerateEnumsProxyHandler</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html">GQLExpressMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#.clearCache">clearCache</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#.%25E2%258C%25BE%25E2%25A0%2580generateSchemaSDL">⌾⠀generateSchemaSDL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#astMiddleware">astMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#schemaMiddleware">schemaMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%258C%25BE%25E2%25A0%2580customMiddleware">⌾⠀customMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580middleware">⬇︎⠀middleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580middlewareWithoutGraphiQL">⬇︎⠀middlewareWithoutGraphiQL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580schema">⬇︎⠀schema</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLExpressMiddleware.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLInterface.html">GQLInterface</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLInterface.html#.%25E2%258C%25BE%25E2%25A0%2580resolveType">⌾⠀resolveType</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLScalar.html">GQLScalar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.parseLiteral">parseLiteral</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.parseValue">parseValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.serialize">serialize</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="IDLFileHandler.html">IDLFileHandler</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getFile">⌾⠀getFile</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getSchema">⌾⠀getSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getSyntaxTree">⌾⠀getSyntaxTree</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="IDLFileHandler.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ModuleParser.html">ModuleParser</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#.exports.ModuleParser#importClass">exports.ModuleParser#importClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580findGQLBaseClasses">⌾⠀findGQLBaseClasses</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580importClass">⌾⠀importClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580parse">⌾⠀parse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580parseSync">⌾⠀parseSync</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~walk">walk</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~walkSync">walkSync</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~%25E2%258E%2586%25E2%25A0%2580constructor">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ModuleParser.exports.ModuleParser.html">exports.ModuleParser</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="SchemaUtils.html">SchemaUtils</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580createMergedRoot">⌾⠀createMergedRoot</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectComments">⌾⠀injectComments</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectEnums">⌾⠀injectEnums</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectInterfaceResolvers">⌾⠀injectInterfaceResolvers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectScalars">⌾⠀injectScalars</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="SyntaxTree.html">SyntaxTree</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyDocument">⌾⠀EmptyDocument</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyMutation">⌾⠀EmptyMutation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyQuery">⌾⠀EmptyQuery</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findDefinition">⌾⠀findDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findField">⌾⠀findField</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findInASTArrayByNameValue">⌾⠀findInASTArrayByNameValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580from">⌾⠀from</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580fromAST">⌾⠀fromAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580fromSchema">⌾⠀fromSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258E%2586%25E2%25A0%2580constructor">⎆⠀constructor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580appendDefinitions">⌾⠀appendDefinitions</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580consumeDefinition">⌾⠀consumeDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580find">⌾⠀find</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580findEnumDefinition">⌾⠀findEnumDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580setAST">⌾⠀setAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580toString">⌾⠀toString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580updateAST">⌾⠀updateAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%25AC%2586%25EF%25B8%258E%25E2%25A0%2580ast">⬆︎⠀ast</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580ast">⬇︎⠀ast</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="utils.Deferred.html">Deferred</a></span></li><li class="nav-heading">Namespaces</li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="decorators.html">decorators</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#.%25E2%258C%25BE%25E2%25A0%2580extractBits">⌾⠀extractBits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580AdjacentSchema">.🏷⠀AdjacentSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580FileSchema">.🏷⠀FileSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Getters">.🏷⠀Getters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Properties">.🏷⠀Properties</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Schema">.🏷⠀Schema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Setters">.🏷⠀Setters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#~decorate">decorate</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="GQLBaseEnv.html">GQLBaseEnv</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBaseEnv.html#~notDefined">notDefined</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="global.html#types">types</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580extendsFrom">⌾⠀extendsFrom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isArray">⌾⠀isArray</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isClass">⌾⠀isClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isDate">⌾⠀isDate</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isFunction">⌾⠀isFunction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNativeClassByProps">⌾⠀isNativeClassByProps</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNativeClassByString">⌾⠀isNativeClassByString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNull">⌾⠀isNull</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNumber">⌾⠀isNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isObject">⌾⠀isObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isOfType">⌾⠀isOfType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isPrimitive">⌾⠀isPrimitive</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isRegExp">⌾⠀isRegExp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isString">⌾⠀isString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isUndefined">⌾⠀isUndefined</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isValue">⌾⠀isValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580typeOf">⌾⠀typeOf</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">GQLBaseEnv</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        GQLBaseEnv
+        </h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+        
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="GQLBase.js.html">GQLBase.js</a>, <a href="GQLBase.js.html#line65">line 65</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<div class="section-members">
+<h4 class="name" id=".MODEL_KEY"><span class="type-signature">(static, constant) </span>MODEL_KEY<span class="type-signature"> :Symbol</span></h4>
+
+
+
+
+<div class="description">
+    <p>A <code>Symbol</code> used as a key to store the backing model data. Designed as a<br>way to separate model data and GraphQL property accessors into logical bits.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="GQLBase.js.html">GQLBase.js</a>, <a href="GQLBase.js.html#line102">line 102</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><code>Symbol</code></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+</div>
+
+        
+            
+<div class="section-members">
+<h4 class="name" id="~META_KEY"><span class="type-signature">(inner, constant) </span>META_KEY<span class="type-signature"> :Symbol</span></h4>
+
+
+
+
+<div class="description">
+    <p>A nameless Symbol for use as a key to the internal decorator storage</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="GQLBase.js.html">GQLBase.js</a>, <a href="GQLBase.js.html#line123">line 123</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><code>Symbol</code></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+</div>
+
+        
+            
+<div class="section-members">
+<h4 class="name" id="~REQ_DATA_KEY"><span class="type-signature">(inner, constant) </span>REQ_DATA_KEY<span class="type-signature"> :Symbol</span></h4>
+
+
+
+
+<div class="description">
+    <p>A <code>Symbol</code> used as a key to store the request data for an instance of the<br>GQLBase object in question.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="GQLBase.js.html">GQLBase.js</a>, <a href="GQLBase.js.html#line113">line 113</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><code>Symbol</code></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+</div>
+
+        
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+<div class="section-method">
+
+    
+
+    <h4 class="name" id="~notDefined"><span class="type-signature">(inner) </span>notDefined<span class="signature">(keyToTest, keySupplied, instance)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    <p>Simple function to check if a supplied key matches a string of your<br>choosing and that string is not a defined property on the instance<br>passed to the check.</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>2.5.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="GQLBase.js.html">GQLBase.js</a>, <a href="GQLBase.js.html#line73">line 73</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>keyToTest</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>string</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <p>a String denoting the property you wish to test</p>
+                
+            </td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>keySupplied</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>mixed</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <p>a value, coerced <code>toString()</code>, to compare to<br><code>keyToTest</code></p>
+                
+            </td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>instance</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>mixed</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <p>an object instance to check <code>hasOwnProperty</code> on for<br>the <code>keyToTest</code> supplied.</p>
+                
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section-returns">
+<h5>Returns:</h5>
+
+        
+
+<dl class="param-type">
+    <dt>
+        Type:
+    </dt>
+    <dd>
+        
+<span class="param-type"><code>Boolean</code></span>
+
+
+    </dd>
+</dl>
+
+
+<div class="param-desc">
+    <p>true if the property matches the supplied key and that<br>property is not an ownedProperty of the instance supplied.</p>
+</div>
+
+    
+</div>
+
+
+
+</div>
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Oct 31 2017 23:54:52 GMT-0700 (PDT) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

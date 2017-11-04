@@ -1,0 +1,9 @@
+.header {
+  background-position: right;
+  background-size: cover;
+  height: 300px;
+}
+
+.body {
+  padding: 0.5em 1.5em 1em 1.5em;
+}

@@ -64,8 +64,6 @@ export class PageStats extends GQLBase {
 
     let [stats] = await Promise.all([statsPromise])
 
-    console.log(path.basename(content, '.md'), stats)
-
     if (stats) {
       return {
         name: path.basename(content, '.md'),

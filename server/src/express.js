@@ -1,5 +1,4 @@
 import express from 'express'
-import favicon from 'serve-favicon'
 import logger from 'morgan'
 import cookieParser from 'cookie-parser'
 import bodyParser from 'body-parser'
@@ -9,7 +8,6 @@ import { ExpressErrorHandler } from './utils/ErrorHandlers'
 // setup Express instance to be configured
 const server = express();
 
-// uncomment after placing your favicon in /public
 server.use(logger(process.env.NODE_ENV || 'dev'))
 server.use(bodyParser.json())
 server.use(bodyParser.urlencoded({ extended: false }))

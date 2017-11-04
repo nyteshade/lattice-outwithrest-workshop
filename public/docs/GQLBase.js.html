@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GQLBase.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Deferred_exports.Deferred.html">Deferred</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DirectTypeAdd.html">DirectTypeAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLBase.html">GQLBase</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.apiDocs">apiDocs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580getMergedRoot">⌾⠀getMergedRoot</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580IDLFilePath">⌾⠀IDLFilePath</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580MUTATORS">⌾⠀MUTATORS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580RESOLVERS">⌾⠀RESOLVERS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%258C%25BE%25E2%25A0%2580setupModel">⌾⠀setupModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580handler">⬇︎⠀handler</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580SCHEMA">⬇︎⠀SCHEMA</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580extendModel">⌾⠀extendModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580getModel">⌾⠀getModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%258C%25BE%25E2%25A0%2580setModel">⌾⠀setModel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%25AC%2586%25EF%25B8%258E%25E2%25A0%2580requestData">⬆︎⠀requestData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580requestData">⬇︎⠀requestData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#~deleteProperty">deleteProperty</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBase.html#~set">set</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLBase.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLEnum.html">GQLEnum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#..get">.get</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#..set">.set</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.valueFor">valueFor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580enums">⬇︎⠀enums</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580name">⬇︎⠀name</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580value">⬇︎⠀value</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#.%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580values">⬇︎⠀values</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLEnum.html#GenerateEnumsProxyHandler">GenerateEnumsProxyHandler</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html">GQLExpressMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#.clearCache">clearCache</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#.%25E2%258C%25BE%25E2%25A0%2580generateSchemaSDL">⌾⠀generateSchemaSDL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#astMiddleware">astMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#schemaMiddleware">schemaMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%258C%25BE%25E2%25A0%2580customMiddleware">⌾⠀customMiddleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580middleware">⬇︎⠀middleware</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580middlewareWithoutGraphiQL">⬇︎⠀middlewareWithoutGraphiQL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLExpressMiddleware.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580schema">⬇︎⠀schema</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLExpressMiddleware.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLInterface.html">GQLInterface</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLInterface.html#.%25E2%258C%25BE%25E2%25A0%2580resolveType">⌾⠀resolveType</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="GQLScalar.html">GQLScalar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.parseLiteral">parseLiteral</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.parseValue">parseValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLScalar.html#.serialize">serialize</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="IDLFileHandler.html">IDLFileHandler</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getFile">⌾⠀getFile</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getSchema">⌾⠀getSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="IDLFileHandler.html#%25E2%258C%25BE%25E2%25A0%2580getSyntaxTree">⌾⠀getSyntaxTree</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="IDLFileHandler.%25E2%258E%2586%25E2%25A0%2580constructor.html">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ModuleParser.html">ModuleParser</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#.exports.ModuleParser#importClass">exports.ModuleParser#importClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580findGQLBaseClasses">⌾⠀findGQLBaseClasses</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580importClass">⌾⠀importClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580parse">⌾⠀parse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#%25E2%258C%25BE%25E2%25A0%2580parseSync">⌾⠀parseSync</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~walk">walk</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~walkSync">walkSync</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="ModuleParser.html#~%25E2%258E%2586%25E2%25A0%2580constructor">⎆⠀constructor</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ModuleParser.exports.ModuleParser.html">exports.ModuleParser</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="SchemaUtils.html">SchemaUtils</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580createMergedRoot">⌾⠀createMergedRoot</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectComments">⌾⠀injectComments</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectEnums">⌾⠀injectEnums</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectInterfaceResolvers">⌾⠀injectInterfaceResolvers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SchemaUtils.html#.%25E2%258C%25BE%25E2%25A0%2580injectScalars">⌾⠀injectScalars</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="SyntaxTree.html">SyntaxTree</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyDocument">⌾⠀EmptyDocument</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyMutation">⌾⠀EmptyMutation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580EmptyQuery">⌾⠀EmptyQuery</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findDefinition">⌾⠀findDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findField">⌾⠀findField</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580findInASTArrayByNameValue">⌾⠀findInASTArrayByNameValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580from">⌾⠀from</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580fromAST">⌾⠀fromAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258C%25BE%25E2%25A0%2580fromSchema">⌾⠀fromSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#.%25E2%258E%2586%25E2%25A0%2580constructor">⎆⠀constructor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580appendDefinitions">⌾⠀appendDefinitions</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580consumeDefinition">⌾⠀consumeDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580find">⌾⠀find</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580findEnumDefinition">⌾⠀findEnumDefinition</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580setAST">⌾⠀setAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580toString">⌾⠀toString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%258C%25BE%25E2%25A0%2580updateAST">⌾⠀updateAST</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%25AC%2586%25EF%25B8%258E%25E2%25A0%2580ast">⬆︎⠀ast</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="SyntaxTree.html#%25E2%25AC%2587%25EF%25B8%258E%25E2%25A0%2580ast">⬇︎⠀ast</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="utils.Deferred.html">Deferred</a></span></li><li class="nav-heading">Namespaces</li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="decorators.html">decorators</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#.%25E2%258C%25BE%25E2%25A0%2580extractBits">⌾⠀extractBits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580AdjacentSchema">.🏷⠀AdjacentSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580FileSchema">.🏷⠀FileSchema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Getters">.🏷⠀Getters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Properties">.🏷⠀Properties</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Schema">.🏷⠀Schema</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#..%25F0%259F%258F%25B7%25E2%25A0%2580Setters">.🏷⠀Setters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="decorators.html#~decorate">decorate</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="GQLBaseEnv.html">GQLBaseEnv</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="GQLBaseEnv.html#~notDefined">notDefined</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="global.html#types">types</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580extendsFrom">⌾⠀extendsFrom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isArray">⌾⠀isArray</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isClass">⌾⠀isClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isDate">⌾⠀isDate</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isFunction">⌾⠀isFunction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNativeClassByProps">⌾⠀isNativeClassByProps</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNativeClassByString">⌾⠀isNativeClassByString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNull">⌾⠀isNull</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isNumber">⌾⠀isNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isObject">⌾⠀isObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isOfType">⌾⠀isOfType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isPrimitive">⌾⠀isPrimitive</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isRegExp">⌾⠀isRegExp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isString">⌾⠀isString</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isUndefined">⌾⠀isUndefined</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580isValue">⌾⠀isValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#types#~%25E2%258C%25BE%25E2%25A0%2580typeOf">⌾⠀typeOf</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">GQLBase.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @namespace GQLBaseEnv */
+// @flow
+
+import Path from 'path'
+import fs from 'fs'
+
+import { Deferred, joinLines } from './utils'
+import { typeOf } from './types'
+import { SyntaxTree } from './SyntaxTree'
+import { GraphQLObjectType } from 'graphql'
+import { IDLFileHandler } from './IDLFileHandler'
+import { merge } from 'lodash'
+
+import EventEmitter from 'events'
+
+/* Internal implementation to detect the existence of proxies. When present
+ * additional functionality is enabled. Proxies are native in Node >= 6 */
+const hasProxy = typeof global.Proxy !== 'undefined';
+
+/* Internal Symbol referring to real accessor to GQLBase model object */
+const _MODEL_KEY = Symbol.for('data-model-contents-value');
+
+/* Internal Symbol referring to the static object containing a proxy handler */
+const _PROXY_HANDLER = Symbol.for('internal-base-proxy-handler')
+
+/**
+ * Simple function to check if a supplied key matches a string of your
+ * choosing and that string is not a defined property on the instance
+ * passed to the check.
+ *
+ * @method GQLBaseEnv~notDefined
+ * @memberof GQLBaseEnv
+ * @since 2.5.0
+ *
+ * @param {string} keyToTest a String denoting the property you wish to test
+ * @param {mixed} keySupplied a value, coerced `toString()`, to compare to
+ * `keyToTest`
+ * @param {mixed} instance an object instance to check `hasOwnProperty` on for
+ * the `keyToTest` supplied.
+ * @return {Boolean} true if the property matches the supplied key and that
+ * property is not an ownedProperty of the instance supplied.
+ */
+export function notDefined(
+  keyToTest: string,
+  keySupplied: Object | string,
+  instance: Object
+) {
+  return (
+    new RegExp("^" + keyToTest + "$").test(keySupplied.toString())
+    &amp;&amp; !instance.hasOwnProperty(keyToTest)
+  );
+}
+
+/**
+ * A `Symbol` used as a key to store the backing model data. Designed as a
+ * way to separate model data and GraphQL property accessors into logical bits.
+ *
+ * @type {Symbol}
+ * @memberof GQLBaseEnv
+ * @const
+ */
+export const MODEL_KEY = Symbol.for('data-model-contents-key');
+
+/**
+ * A `Symbol` used as a key to store the request data for an instance of the
+ * GQLBase object in question.
+ *
+ * @type {Symbol}
+ * @const
+ * @inner
+ * @memberof GQLBaseEnv
+ */
+export const REQ_DATA_KEY = Symbol.for('request-data-object-key');
+
+/**
+ * A nameless Symbol for use as a key to the internal decorator storage
+ *
+ * @type {Symbol}
+ * @const
+ * @inner
+ * @memberof GQLBaseEnv
+ */
+export const META_KEY = Symbol();
+
+/**
+ * All GraphQL Type objects used in this system are assumed to have extended
+ * from this class. An instance of this class can be used to wrap an existing
+ * structure if you have one.
+ *
+ * @class GQLBase
+ */
+export class GQLBase extends EventEmitter {
+  fileHandler: ?IDLFileHandler;
+
+  /**
+   * Request data is passed to this object when constructed. Typically these
+   * objects, and their children, are instantiated by its own static MUTATORS
+   * and RESOLVERS. They should contain request specific state if any is to
+   * be shared.
+   *
+   * These can be considered request specific controllers for the object in
+   * question. The base class takes a single object which should contain all
+   * the HTTP/S request data and the graphQLParams is provided as the object
+   * { query, variables, operationName, raw }.
+   *
+   * When used with express-graphql, the requestData object has the format
+   * { req, res, gql } where
+   *   • req is an Express 4.x request object
+   *   • res is an Express 4.x response object
+   *   • gql is the graphQLParams object in the format of
+   *     { query, variables, operationName, raw }
+   *     See https://github.com/graphql/express-graphql for more info
+   *
+   * @memberof GQLBase
+   * @method ⎆⠀constructor
+   * @constructor
+   *
+   * @param {mixed} modelData this, typically an object, although anything
+   * really is supported, represents the model data for our GraphQL object
+   * instance.
+   * @param {Object} requestData see description above
+   */
+  constructor(modelData: Object = {}, requestData: ?Object = null) {
+    super();
+
+    const Class = this.constructor;
+
+    GQLBase.setupModel(this);
+    this.setModel(modelData);
+    this.requestData = requestData || {};
+    this.fileHandler = new IDLFileHandler(this.constructor);
+
+    // @ComputedType
+    return hasProxy ? new Proxy(this, GQLBase[_PROXY_HANDLER]) : this;
+  }
+
+  /**
+   * Getter for the internally stored model data. The contents of this
+   * object are abstracted away behind a `Symbol` key to prevent collision
+   * between the underlying model and any GraphQL Object Definition properties.
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⌾⠀getModel
+   * @since 2.5
+   *
+   * @param {Object} value any object you wish to use as a data store
+   */
+  getModel() {
+    // @ComputedType
+    return this[MODEL_KEY];
+  }
+
+  /**
+   * Setter for the internally stored model data. The contents of this
+   * object are abstracted away behind a `Symbol` key to prevent collision
+   * between the underlying model and any GraphQL Object Definition properties.
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⌾⠀setModel
+   * @since 2.5
+   *
+   * @param {Object} value any object you wish to use as a data store
+   */
+  setModel(value: Object): GQLBase {
+    // @ComputedType
+    this[MODEL_KEY] = value;
+    return this;
+  }
+
+  /**
+   * Uses `_.merge()` to modify the internal backing data store for the
+   * object instance. This is a shortcut for
+   * `_.merge()(instance[MODEL_KEY], ...extensions)`
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⌾⠀extendModel
+   * @since 2.5
+   *
+   * @param {mixed} extensions n-number of valid `_.merge()` parameters
+   * @return {GQLBase} this is returned
+   */
+  extendModel(...extensions: Array&lt;mixed>): GQLBase {
+    // $FlowFixMe
+    merge(this[MODEL_KEY], ...extensions);
+    return this;
+  }
+
+  /**
+   * A getter that retrieves the inner request data object. When used with
+   * GQLExpressMiddleware, this is an object matching {req, res, gql}.
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⬇︎⠀requestData
+   *
+   * @return {Object} an object, usually matching { req, res, gql }
+   */
+  get requestData(): Object | null {
+    // @ComputedType
+    return this[REQ_DATA_KEY];
+  }
+
+  /**
+   * A setter that assigns a value to the inner request data object. When
+   * used with GQLExpressMiddleware, this is an object matching {req, res, gql}.
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⬆︎⠀requestData
+   *
+   * @param {Object} value an object, usually matching { req, res, gql }
+   */
+  set requestData(value: Object): void {
+    // @ComputedType
+    this[REQ_DATA_KEY] = value;
+  }
+
+  /**
+   * Returns the `constructor` name. If invoked as the context, or `this`,
+   * object of the `toString` method of `Object`'s `prototype`, the resulting
+   * value will be `[object MyClass]`, given an instance of `MyClass`
+   *
+   * @method ⌾⠀[Symbol.toStringTag]
+   * @memberof ModuleParser
+   *
+   * @return {string} the name of the class this is an instance of
+   * @ComputedType
+   */
+  get [Symbol.toStringTag]() { return this.constructor.name }
+
+  /**
+   * Until such time as the reference implementation of Facebook's GraphQL
+   * SDL AST parser supports comments, or until we take advantage of Apollo's
+   * AST parser, this is how comments will be applied to a built schema.
+   *
+   * Several constants are defined on the GQLBase object itself, and thereby
+   * all its subclasses. They pertain to how to define description fields
+   * for various parts of your GQL implementation.
+   *
+   * ```
+   * // To define a description on the top level class
+   * [this.DOC_CLASS]: string
+   *
+   * // To define a description on a field (getter, function or async function)
+   * [this.DOC_FIELDS]: {
+   *   fieldName: string
+   * }
+   *
+   * // To define a description on a query, mutation or subscription field
+   * [this.DOC_QUERIES || this.DOC_MUTATORS || this.DOC_SUBSCRIPTIONS]: {
+   *   fieldName: string
+   * }
+   * ```
+   *
+   * To make writing code easier, the `joinLines()` template function is
+   * available so your source code can look nice and neat and your descriptions
+   * won't get annoying line breaks and spaces as part of that process.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method apiDocs
+   *
+   * @return {Object} an object with various keys and values denoting
+   * description fields that should be applied to the final schema object
+   */
+  static apiDocs(): Object {
+    return {
+      [this.DOC_CLASS]: joinLines`
+        GQLBase class implementation. GQLBase is the root class used in
+        graphql-lattice to describe a GraphQLObjectType. If you are reading
+        this, the person using lattice failed to provide documentation for
+        their type. :)
+      `,
+
+      [this.DOC_QUERY]: joinLines`
+        ## Welcome to GraphQL Lattice
+        **Query**
+
+        You will want to define a \`DOC_QUERY\` apiDoc comment with something
+        more meaningful to your particular Schema here.
+      `,
+
+      [this.DOC_MUTATION]: joinLines`
+        ## Welcome to GraphQL Lattice
+        **Mutation**
+
+        You will want to define a \`DOC_MUTATION\` apiDoc comment with
+        something more meaningful to your particular Schema here.
+      `,
+
+      [this.DOC_SUBSCRIPTION]: joinLines`
+        ## Welcome to GraphQL Lattice
+        **Subscription**
+
+        You will want to define a \`DOC_SUBSCRIPTION\` apiDoc comment with
+        something more meaningful to your particular Schema here.
+      `,
+
+      [this.DOC_FIELDS]: {
+        // fieldName: `fieldDescription`,
+      },
+
+      [this.DOC_QUERIES]: {
+        // queryName: `queryDescription`,
+      },
+
+      [this.DOC_MUTATORS]: {
+        // mutatorName: `mutatorDescription`
+      },
+
+      [this.DOC_SUBSCRIPTIONS]: {
+        // subscriptionName: `subscriptionDescription`
+      }
+    }
+  }
+
+  /**
+   * Defined in a base class, this getter should return either a String
+   * detailing the full IDL schema of a GraphQL handler or one of two
+   * types of Symbols.
+   *
+   * The first Symbol type is the constant `ADJACENT_FILE`. If this Symbol is
+   * returned, the system assumes that next to the source file in question is
+   * a file of the same name with a .graphql extension. This file should be
+   * made of the GraphQL IDL schema definitions for the object types being
+   * created.
+   *
+   * Example:
+   * ```js
+   *   static get SCHEMA(): string | Symbol {
+   *     return GQLBase.ADJACENT_FILE
+   *   }
+   * ```
+   *
+   * The primary advantage of this approach is allowing an outside editor that
+   * provides syntax highlighting rather than returning a string from the
+   * SCHEMA getter.
+   *
+   * Alternatively, the static method IDLFilePath can be used to point to an
+   * alternate location where the GraphQL IDL file resides. The extension can
+   * also be changed from .graphql to something else if need be using this
+   * method.
+   *
+   * Example:
+   * ```js
+   *   static get SCHEMA(): string | Symbol {
+   *     return GQLBase.IDLFilePath('/path/to/file', '.idl')
+   *   }
+   * ```
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⬇︎⠀SCHEMA
+   * @readonly
+   * @static
+   *
+   * @return {string|Symbol} a valid IDL string or one of the Symbols
+   * described above.
+   *
+   * @see {@link GQLBase#ADJACENT_FILE}
+   * @see {@link GQLBase#IDLFilePath}
+   */
+  static get SCHEMA(): string | Symbol {
+    return ''
+  }
+
+  /**
+   * This method should return a promise that resolves to an object of
+   * functions matching the names of the mutation operations. These are to be
+   * injected into the root object when used by `GQLExpressMiddleware`.
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⌾⠀MUTATORS
+   * @readonly
+   * @static
+   *
+   * @param {Object} requestData typically an object containing three
+   * properties; {req, res, gql}
+   * @return {Promise} a promise that resolves to an object; see above for more
+   * information.
+   */
+  static async MUTATORS(requestData: Object): Promise&lt;Object> {
+    // define in base class
+    return {};
+  }
+
+  /**
+   * This method should return a promise that resolves to an object of
+   * functions matching the names of the query operations. These are to be
+   * injected into the root object when used by `GQLExpressMiddleware`.
+   *
+   * @instance
+   * @memberof GQLBase
+   * @method ⌾⠀RESOLVERS
+   * @readonly
+   * @static
+   *
+   * @param {Object} requestData typically an object containing three
+   * properties; {req, res, gql}
+   * @return {Promise} a promise that resolves to an object; see above for more
+   * information.
+   */
+  static async RESOLVERS(requestData: Object): Promise&lt;Object> {
+    // define in base class
+    return {};
+  }
+
+  /**
+   * @see {@link GQLBase#SCHEMA}
+   *
+   * @memberof GQLBase
+   * @method ⬇︎⠀ADJACENT_FILE
+   * @static
+   * @const
+   *
+   * @return {Symbol} the Symbol, when returned from SCHEMA, causes
+   * the logic to load an IDL Schema from an associated file with a .graphql
+   * extension and bearing the same name.
+   */
+  static get ADJACENT_FILE(): Symbol {
+    return Symbol.for('.graphql file located adjacent to source')
+  }
+
+  /**
+   * Determines the default type targeted by this GQLBase class. Any
+   * type will technically be valid but only will trigger special behavior
+   *
+   * @memberof GQLBase
+   * @method ⬇︎⠀GQL_TYPE
+   * @static
+   * @const
+   *
+   * @return {Function} a type, such as `GraphQLObjectType` or
+   * `GraphQLInterfaceType`
+   */
+  static get GQL_TYPE(): Function {
+    return GraphQLObjectType;
+  }
+
+  /**
+   * Creates an appropriate Symbol crafted with the right data for use by
+   * the IDLFileHandler class below.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⌾⠀IDLFilePath
+   *
+   * @param {string} path a path to the IDL containing file
+   * @param {string} [extension='.graphql'] an extension, including the
+   * prefixed period, that will be added to the supplied path should it not
+   * already exist.
+   * @return Symbol
+   *
+   * @see {@link GQLBase#SCHEMA}
+   */
+  static IDLFilePath(path: string, extension: string = '.graphql'): Symbol {
+    return Symbol.for(`Path ${path} Extension ${extension}`);
+  }
+
+  /**
+   * A file handler for fetching the IDL schema string from the file system
+   * for those `GQLBase` extended classes that have indicated to do so by
+   * returning a `Symbol` for their `SCHEMA` property.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀handler
+   *
+   * @return {IDLFileHandler} instance of IDLFileHandler, created if one does
+   * not already exist, for fetching the contents from disk.
+   */
+  static get handler(): IDLFileHandler {
+    const key = Symbol.for(`${IDLFileHandler.name}.${this.name}`);
+
+    // @ComputedType
+    if (!this[key]) {
+      // @ComputedType
+      this[key] = new IDLFileHandler(this);
+    }
+
+    // @ComputedType
+    return this[key];
+  }
+
+  /**
+   * Returns the module object where your class is created. This needs to be
+   * defined on your class, as a static getter, in the FILE where you are
+   * defining your Class definition.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀module
+   * @const
+   *
+   * @return {Object} the reference to the module object defined and injected
+   * by node.js' module loading system.
+   *
+   * @see https://nodejs.org/api/modules.html
+   */
+  static get module(): Object {
+    return module;
+  }
+
+  /**
+   * The internal data model has some custom `EventEmitter` code wrapped
+   * it here. When the data model is set via `setModel` or by accessing it
+   * via `instance[MODEL_KEY]`, an event `EVENT_MODEL_SET` is emitted. Any
+   * listener listening for this event receives an object with two keys
+   * ```
+   * {
+   *   model: The actual model being set; changes are persisted
+   *   instance: The GQLBase instance the model is associated with
+   * }
+   * ```
+   *
+   * Subsequently, the events `EVENT_MODEL_PROP_CHANGE` and
+   * `EVENT_MODEL_PROP_DELETE` can be listened to if your version of node
+   * supports Proxy objects. They allow you to be notified whenever your
+   * model has a property changed or deleted, respectively.
+   *
+   * The callback for `change` receives an object with four properties
+   * ```
+   * {
+   *   model: The model object the value is being changed on
+   *   old: The old value being replaced; undefined if it is the first time
+   *   key: The property key for the value being changed
+   *   value: The new value being set
+   * }
+   * ```
+   *
+   * The callback for `delete` receives an object with four properties
+   * ```
+   * {
+   *   model: The model object the value is deleted from
+   *   key: The property key for the deleted value
+   *   deleted: The deleted value
+   * }
+   * ```
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⌾⠀setupModel
+   *
+   * @param {GQLBase} instance typically `this` as passed in from a call in
+   * the constructor
+   */
+  static setupModel(instance: GQLBase) {
+    const changeHandler: Object = {
+      /**
+       * Proxy set() handler. This is where the change events are fired from
+       *
+       * @method GQLBase~set
+       * @param {Object} target the `GQLBase` model object
+       * @param {string} key the property name
+       * @param {mixed} value the new property value
+       */
+      set(target, key, value) {
+        const old = target[key];
+
+        target[key] = value;
+        instance.emit(GQLBase.EVENT_MODEL_PROP_CHANGE, {
+          model: target,
+          old,
+          key,
+          value
+        })
+      },
+
+      /**
+       * Proxy deleteProperty() handler. This is where the delete property
+       * events are fired from
+       *
+       * @method GQLBase~deleteProperty
+       * @param {Object} target the `GQLBase` model object
+       * @param {string} key the property name
+       */
+      deleteProperty(target, key) {
+        const deleted = target[key];
+
+        delete target[key];
+        instance.emit(GQLBase.EVENT_MODEL_PROP_DELETE, {
+          model: target,
+          key,
+          deleted
+        })
+      }
+    }
+
+    /**
+     * 'Publicly' the Symbol for accessing the `GQLBase` model is `MODEL_KEY`.
+     * In truth it is stored under a Symbol defined in `setupModel` and
+     * referred to as `_MODEL_KEY` in this code. This is done so a getter and
+     * setter can be wrapped around the usage of the instance's data model.
+     *
+     * When being read, if `Proxy` exists in the node environment and if there
+     * are any registered `EVENT_MODEL_PROP_CHANGE` or `EVENT_MODEL_PROP_DELETE`
+     * events, then the returned model is a Proxy around the real model that
+     * allows us to capture the changes and deletion of keys
+     *
+     * When being assigned, the event `EVENT_MODEL_WILL_BE_SET` and the event
+     * `EVENT_MODEL_HAS_BEEN_SET` are emitted to allow listeners to modify and
+     * see the final data around the setting of a model object. Both events
+     * receive an object with two keys
+     *
+     * ```
+     * {
+     *   model: The object being or having been set
+     *   instance: The GQLBase instance receiving the model
+     * }
+     * ```
+     */
+    Object.defineProperty(instance, MODEL_KEY, {
+      get: function() {
+        let model = this[_MODEL_KEY]
+        let hasListeners =
+          this.listenerCount(GQLBase.EVENT_MODEL_PROP_CHANGE) +
+          this.listenerCount(GQLBase.EVENT_MODEL_PROP_DELETE)
+
+        if (hasProxy &amp;&amp; hasListeners) {
+          model = new Proxy(model, changeHandler);
+        }
+
+        return model
+      },
+
+      set: function(model) {
+        const instance = this;
+
+        this.emit(GQLBase.EVENT_MODEL_WILL_BE_SET, { model, instance });
+        instance[_MODEL_KEY] = model;
+        this.emit(GQLBase.EVENT_MODEL_HAS_BEEN_SET, { model, instance })
+      }
+    });
+  }
+
+  /**
+   * If ES6 Proxies are supported in your execution environment, all GQLBase
+   * extended classes are also proxies. By default the internal proxy handler
+   * provides backwards compatibility with the removal of the default getters
+   * and setters for the 'model' property as long as you do not define a
+   * top level 'model' property of your own.
+   *
+   * @method ⬇︎⠀[_PROXY_HANDLER]
+   * @memberof GQLBase
+   * @static
+   * @const
+   * @since 2.5.0
+   *
+   * @type {Object}
+   * @ComputedType
+   */
+  static get [_PROXY_HANDLER]() {
+    return {
+      get(target, key, lastResult) {
+        const model = target[_MODEL_KEY];
+
+        // Allow backwards compatibility for 'model' property if one is not
+        // explicitly defined on your instance.
+        if (notDefined('model', key, target)) {
+          // Be sure to use the public MODEL_KEY to ensure events fire
+          return target[MODEL_KEY];
+        }
+
+        return target[key]
+      }
+    }
+  }
+
+  /**
+   * Applies the same logic as {@link #[Symbol.toStringTag]} but on a static
+   * scale. So, if you perform `Object.prototype.toString.call(MyClass)`
+   * the result would be `[object MyClass]`.
+   *
+   * @method ⌾⠀[Symbol.toStringTag]
+   * @memberof ModuleParser
+   * @static
+   *
+   * @return {string} the name of this class
+   * @ComputedType
+   */
+  static get [Symbol.toStringTag]() { return this.name }
+
+  /**
+   * A constant used to register an event listener for when the internal
+   * model object is assigned a new value. This event fires before the model
+   * is set. Changes to the model value at this point will affect the contents
+   * before the value assignment takes place.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀EVENT_MODEL_WILL_BE_SET
+   * @const
+   *
+   * @type {string}
+   */
+  static get EVENT_MODEL_WILL_BE_SET() { return 'E: Int. model will be set' }
+
+  /**
+   * A constant used to register an event listener for when the internal
+   * model object is assigned a new value. This event fires after the model
+   * is set.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀EVENT_MODEL_HAS_BEEN_SET
+   * @const
+   *
+   * @type {string}
+   */
+  static get EVENT_MODEL_HAS_BEEN_SET() { return 'E: Int. model has been set' }
+
+  /**
+   * A constant used to register an event listener for when a property of the
+   * internal model object is set to a new or intial value.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀EVENT_MODEL_PROP_CHANGE
+   * @const
+   *
+   * @type {string}
+   */
+  static get EVENT_MODEL_PROP_CHANGE() { return 'E: Int. model prop changed' }
+
+  /**
+   * A constant used to register an event listener for when a property of the
+   * internal model object has been deleted. This event fires after the value
+   * has been deleted.
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀EVENT_MODEL_PROP_DELETE
+   * @const
+   *
+   * @type {string}
+   */
+  static get EVENT_MODEL_PROP_DELETE() { return 'E: Int. model prop deleted' }
+
+  /**
+   * A constant key used to identify a comment for a class description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_CLASS
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_CLASS() { return 'class' }
+
+  /**
+   * A constant key used to identify a comment for a type field description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_FIELDS
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_FIELDS() { return 'fields' }
+
+  /**
+   * A constant key used to identify a comment for the top level query
+   * description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_QUERY
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_QUERY() { return 'query' }
+
+  /**
+   * A constant key used to identify a comment for a query description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_QUERIES
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_QUERIES() { return 'queries' }
+
+  /**
+   * A constant key used to identify a comment for the top level mutation
+   * description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_MUTATION
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_MUTATION() { return 'mutation' }
+
+  /**
+   * A constant key used to identify a comment for a mutator description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_MUTATORS
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_MUTATORS() { return 'mutators' }
+
+  /**
+   * A constant key used to identify a comment for the top level subscription
+   * description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_SUBSCRIPTION
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_SUBSCRIPTION() { return 'subscription' }
+
+  /**
+   * A constant key used to identify a comment for a subscription description
+   *
+   * @static
+   * @memberof GQLBase
+   * @method ⬇︎⠀DOC_SUBSCRIPTIONS
+   * @const
+   *
+   * @type {string}
+   */
+  static get DOC_SUBSCRIPTIONS() { return 'subscriptions' }
+
+  /**
+   * A shortcut to the utils/joinLines function to make it easier to get
+   * the tools to write docs for your types in a friendly fashion.
+   *
+   * @memberof GQLBase
+   * @method ⬇︎⠀joinLines
+   * @static
+   * @const
+   *
+   * @type {Function}
+   */
+  static get joinLines(): Function { return joinLines }
+
+  /**
+   * An simple pass-thru method for fetching a types merged root object.
+   *
+   * @method ⌾⠀getMergedRoot
+   * @memberof GQLBase
+   * @static
+   *
+   * @param {Object} requestData an object containing the request data such as
+   * request, response or graphql context info that should be passed along to
+   * each of the resolver creators
+   * @return {Object} the merged root object with all the query, mutation and
+   * subscription resolvers defined and created within.
+   */
+  static async getMergedRoot(
+    requestData: Object,
+    separateByType: boolean = false
+  ): Object {
+    const root = {};
+    const Class = this;
+
+    let _ = {
+      // $FlowFixMe
+      resolvers: Class[META_KEY].resolvers || [],
+      // $FlowFixMe
+      mutators: Class[META_KEY].mutators || [],
+      // $FlowFixMe
+      subscriptors: Class[META_KEY].subscriptors || []
+    }
+
+    let convert = f => {return { [f.name]: f.bind(Class, requestData) }}
+    let reduce = (p, c) => merge(p, c)
+
+    _.resolvers = _.resolvers.map(convert).reduce(reduce, {})
+    _.mutators = _.mutators.map(convert).reduce(reduce, {})
+    _.subscriptors = _.subscriptors.map(convert).reduce(reduce, {})
+
+    if (separateByType) {
+      // Apollo wants all the resolvers to grouped by top level type.
+      // The field resolvers aren't an issue in Lattice defined types
+      // but the root types do need to be sorted; so let's do that here
+      merge(
+        root,
+        { Query: await Class.RESOLVERS(requestData) },
+        { Mutation: await Class.MUTATORS(requestData) },
+        { Query: _.resolvers },
+        { Mutation: _.mutators },
+        { Subscription: _.subscriptors }
+      );
+
+      // When using lattice with apollo server, it is quite particular about
+      // empty Query, Mutation or Subscription resolver maps.
+      if (!Object.keys(root.Query).length) delete root.Query
+      if (!Object.keys(root.Mutation).length) delete root.Mutation
+      if (!Object.keys(root.Subscription).length) delete root.Subscription
+    }
+    else {
+      merge(
+        root,
+        await Class.RESOLVERS(requestData),
+        await Class.MUTATORS(requestData),
+        _.resolvers,
+        _.mutators,
+        _.subscriptors
+      );
+    }
+
+    return root;
+  }
+
+  /**
+   * An object used to store data used by decorators and other internal
+   * proccesses.
+   * @ComputedType
+   */
+  static get [META_KEY]() {
+    let storage = this[Symbol.for(this.name)]
+
+    if (!storage) {
+      storage = (this[Symbol.for(this.name)] = {})
+    }
+
+    return storage;
+  }
+}
+
+export default GQLBase;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Oct 31 2017 23:54:52 GMT-0700 (PDT) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
